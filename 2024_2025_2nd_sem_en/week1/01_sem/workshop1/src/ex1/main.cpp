@@ -4,8 +4,8 @@
 
 int main()
 {
-  std::string name;
-  std::cin >> name;
-  std::cout << "Hello, " << name << std::endl;
+  char a = 96;
+  char b = 98;
+  std::cout << (int)(char)(a + b);
   return 0;
 }

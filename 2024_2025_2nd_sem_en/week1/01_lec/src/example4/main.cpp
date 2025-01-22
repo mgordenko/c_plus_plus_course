@@ -3,8 +3,7 @@
 using namespace std;
 
 int main() {
-    int a;
-    cin >> a;
-    cout << "Hello, world!\n" << a;
+    int a = 20, b = 50;
+    cout << 1.0 * a / b;
     return 0;
 }

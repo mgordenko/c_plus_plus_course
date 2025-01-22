@@ -4,6 +4,9 @@
 using namespace std;
 
 int main() {
-    string s = "abc";
+    int a = 10; // 11
+    cout << 10 + ++a;
+    a = 10; // 11
+    cout << 10 + a++;
     return 0;
 }
