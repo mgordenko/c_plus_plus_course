@@ -9,6 +9,15 @@ of the times.
 
 #include <iostream>
 
-int main() {
-
+int main() { // есть ошибка
+    int n;
+    std::cin >> n;
+    double ln = 0;
+    short sign = 1;
+    for (int i = 1; i <= n; ++i) {
+        ln = ln + 1.0 * sign / i;
+        sign *= -1;
+    }
+    std::cout << ln;
+    return 0;
 }

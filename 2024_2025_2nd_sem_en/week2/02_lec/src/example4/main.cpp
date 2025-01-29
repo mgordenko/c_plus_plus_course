@@ -6,13 +6,14 @@ int main() {
     switch(a) {
         case 1:	
             std::cout << "First branch" << std::endl;
-            a++;
+            //break;
+        default:
+            std::cout << "Unknown value" << std::endl;   
+            break; 
         case 3:
             std::cout << "Second branch" << std::endl;
-            //
-        default:
-            std::cout << "Unknown value" << std::endl;
-            
+            break;
+   
     }
 
 }

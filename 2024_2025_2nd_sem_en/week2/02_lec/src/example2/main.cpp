@@ -2,9 +2,10 @@
 using namespace std;
 
 int main() {
-    int arr1[3][2] = { {1}, {2, 3}, {4, 5} };
-
-    cout << arr1[0][0] << endl;
-
+    if (true)
+        if (false)
+            std::cout << "A\n";
+        else
+            std::cout << "B\n";
     return 0;
 }
