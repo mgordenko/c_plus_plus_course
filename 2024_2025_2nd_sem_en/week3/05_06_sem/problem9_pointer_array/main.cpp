@@ -12,21 +12,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
-
-void plus100(int *arr, int n) {
-  for (int i = 0; i < 10; i++)
-    arr[i] += 100;
-}
-
 int main() {
-  int *arr = new int[10];
-  for (int i = 0; i < 10; i++)
-    arr[i] = i * i;
-  for (int i = 0; i < 10; i++)
-    std::cout << arr[i] << ' ';
-  plus100(arr, 10);
-  std::cout << '\n';
-  for (int i = 0; i < 10; i++)
-    std::cout << arr[i] << ' ';
-  return 0;
+  // your code here
+
 }
