@@ -17,7 +17,6 @@
 // 0100
 int main() {
   int a = 15, k = 2;
-  // 1 ^ 1 = 0; 1 ^ 0 = 1; 0 ^ 1 = 1
-  std::cout << (a ^ (1 << k)) << '\n';
+  // your code here
   return 0;
 }
