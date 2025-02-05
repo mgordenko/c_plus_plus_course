@@ -14,15 +14,10 @@
 #include <iostream>
 
 void swap1(int *a, int *b) {
-  int temp = *b;
-  *b = *a;
-  *a = temp;
+  // your code here
+
 }
 
 int main() {
-  int el1 = 5, el2 = 10;
-  std::cout << el1 << ' ' << el2 << '\n';
-  swap1(&el1, &el2);
-  std::cout << el1 << ' ' << el2 << '\n';
-  return 0;
+  // your code here
 }
