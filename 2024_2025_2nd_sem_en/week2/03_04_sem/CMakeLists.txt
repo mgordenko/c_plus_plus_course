@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(03-04 sem)
+project(03_04_sem)
 
 
 if (NOT CMAKE_BUILD_TYPE)
