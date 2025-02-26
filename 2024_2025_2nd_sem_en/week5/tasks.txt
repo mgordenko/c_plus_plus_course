@@ -1,0 +1,59 @@
+1. Reverse an Array
+Write a function that takes an array and returns a new array with the elements in reverse order.
+
+2. Sum of Even Numbers
+Create a function that takes an array of integers and returns the sum of all the even elements.
+
+3. Find the Minimum and Maximum
+Implement a function that finds the minimum and maximum values ​​in an array of numbers without using the built-in sorting methods.
+
+4. Rotate
+Write a function that rotates the elements of an array a given number of positions to the right (or left).
+
+5. Check for a Palindrome
+Create a function that checks whether an array is a palindrome (i.e., reads the same from left to right and from right to left).
+
+6. Finding the First Duplicate
+Write a function that returns the first element in an array that occurs more than once, or reports that there are no duplicates.
+
+7. Merging Two Sorted Arrays
+Write a function that takes two sorted arrays and merges them into a single sorted array.
+
+8. Intersecting Arrays
+Write a function that returns a new array containing only those elements that appear in both original arrays (no duplicates).
+
+9. Finding the Length of the Longest Increasing Subsequence
+Write a function that finds the length of the longest increasing sequence in a given array.
+
+10. Analyzing Element Frequency
+Write a function that takes an array and returns an object (or dictionary) where each unique element is associated with the number of times it occurs.
+
+11. Second Largest Element
+Write a function that finds the second largest element in an array without sorting it first.
+
+12. Splitting an Array by a Threshold
+Implement a function that splits an array into two: one with elements less than a given threshold, and one with elements greater than or equal to this threshold.
+
+13. Cumulative Sum
+Create a function that returns a new array where each element is equal to the sum of all previous elements of the original array (cumulative sum).
+
+14. Finding Pairs with a Given Sum
+Write a function that finds all unique pairs of elements in an array whose sum is equal to a given number.
+
+15. Checking for the Existence of a Subset with a Given Sum
+Implement a function that checks whether it is possible to select a subset of array elements so that their sum is equal to a given number.
+
+16. Finding a Majority Element
+Create a function that identifies an element that occurs in an array more than n/2 times (if such an element exists).
+
+17. Dot product of vectors
+Write a function that takes two arrays of equal length and returns their dot product.
+
+18. Shuffling an array
+Implement a function that randomly shuffles the elements of an array (the Fisher-Yates algorithm, for example).
+
+19. Moving zeros to the end of an array
+Create a function that moves all zero elements of an array to its end, while preserving the relative order of non-zero elements.
+
+20. Finding a missing number
+In an array containing all numbers from 1 to n, except for one, write a function that finds the missing number.
