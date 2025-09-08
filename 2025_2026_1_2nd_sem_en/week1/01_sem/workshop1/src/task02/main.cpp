@@ -1,5 +1,4 @@
 /*******************************************************************************
- * Workshop 1/Task 4
  * Calculating the expression (a + b) * c - d  
  *  
  * This program takes four integers as input: a, b, c, d.  

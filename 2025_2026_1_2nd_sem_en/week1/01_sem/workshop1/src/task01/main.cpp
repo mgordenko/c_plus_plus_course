@@ -1,5 +1,4 @@
 /*******************************************************************************
- * Workshop 1/Task 3 
  * Displaying ASCII codes of characters.  
  *  
  * Output the characters 'a', 'b', 'c' and their ASCII representations.  
