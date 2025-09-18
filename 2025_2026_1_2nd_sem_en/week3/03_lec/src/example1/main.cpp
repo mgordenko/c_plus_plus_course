@@ -1,11 +1,11 @@
 #include <iostream>
 
 int main() {
-    signed char a = 5;
-    signed char b = -5;
-
-    std::cout << (int)a << " in binary: 00000101\n";
-    std::cout << (int)b << " in binary: 11111011\n";
+    int x = 10;
+    if (x = 5, x != 5) // init, condition
+        std::cout << "5\n";
+    else
+        std::cout << "10\n";
 
     return 0;
 }

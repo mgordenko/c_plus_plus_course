@@ -1,10 +1,7 @@
 #include <iostream>
-#include <cmath>
-
 int main() {
-    double nan1 = 0.0 / 0.0;
-    double nan2 = sqrt(-1.0);
-    std::cout << nan1 << '\n';
-    std::cout << nan2 << '\n';
+    int x = 0, y = 1;
+    if (x++ && ++y) std::cout << "T\n";
+    std::cout << x << ' ' << y << '\n';
     return 0;
 }

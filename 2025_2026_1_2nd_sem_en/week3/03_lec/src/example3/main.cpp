@@ -1,6 +1,7 @@
 #include <iostream>
 int main() {
-    unsigned int x = 5; // 01012
-    unsigned int mask = 1 << 2; // 01002
-    std::cout << (x | mask) << '\n';
+    int x = 2, y = 3;
+    if (x++ > 2) std::cout << "A\n";
+    if (++y > 3) std::cout << "B\n";
+    std::cout << x << ' ' << y << '\n';
 }
