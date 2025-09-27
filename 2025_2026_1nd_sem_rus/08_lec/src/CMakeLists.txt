@@ -11,5 +11,4 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0 -Werror=return-type")
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
 
 #### the list of targets ####
-add_executable(example2/main.cpp example2/example.h example2/example.cpp
-        example2/main.cpp)
+add_executable(example2/main.cpp example2/example.h example2/example.cpp)

@@ -1,0 +1,85 @@
+{
+	Checks: '-*, bugprone-suspicious-include, cppcoreguidelines-avoid-goto, cppcoreguidelines-init-variables, cppcoreguidelines-narrowing-conversions, cppcoreguidelines-no-malloc, cppcoreguidelines-slicing, google-build-using-namespace, google-explicit-constructor, google-readability-casting, google-runtime-int, misc-definitions-in-headers, modernize-deprecated-headers, modernize-make-shared, modernize-make-unique, modernize-return-braced-init-list, modernize-replace-random-shuffle, modernize-shrink-to-fit, modernize-use-auto, modernize-use-bool-literals, modernize-use-emplace, modernize-use-equals-default, modernize-use-equals-delete, modernize-use-nullptr, modernize-use-override, modernize-use-using, performance-implicit-conversion-in-loop, readability-braces-around-statements, readability-container-size-empty, readability-delete-null-pointer, readability-else-after-return, readability-identifier-naming, readability-inconsistent-declaration-parameter-name, readability-isolate-declaration, readability-redundant-control-flow, readability-redundant-smartptr-get, readability-redundant-string-cstr, readability-redundant-string-init, readability-simplify-boolean-expr, readability-simplify-subscript-expr',
+	WarningsAsErrors: '*',
+	HeaderFilterRegex: '(\.hpp|\.h)$',
+	CheckOptions:
+	[
+		{
+			key: readability-identifier-naming.AbstractClassPrefix,
+			value: 'I'
+		},
+		{
+			key: readability-identifier-naming.ClassCase,
+			value: 'CamelCase'
+		},
+		{
+			key: readability-identifier-naming.ConstexprVariableCase,
+			value: 'CamelCase'
+		},
+		{
+			key: readability-identifier-naming.ConstexprVariablePrefix,
+			value: 'k'
+		},
+		{
+			key: readability-identifier-naming.FunctionCase,
+			value: 'CamelCase'
+		},
+		{
+			key: readability-identifier-naming.GlobalConstantCase,
+			value: 'CamelCase'
+		},
+		{
+			key: readability-identifier-naming.GlobalConstantPrefix,
+			value: 'k'
+		},
+		{
+			key: readability-identifier-naming.NamespaceCase,
+			value: 'lower_case'
+		},
+		{
+			key: readability-identifier-naming.ParameterCase,
+			value: 'lower_case'
+		},
+		{
+			key: readability-identifier-naming.PrivateMemberCase,
+			value: 'lower_case'
+		},
+		{
+			key: readability-identifier-naming.PrivateMemberSuffix,
+			value: '_'
+		},
+		{
+			key: readability-identifier-naming.StaticConstantCase,
+			value: 'CamelCase'
+		},
+		{
+			key: readability-identifier-naming.StaticConstantPrefix,
+			value: 'k'
+		},
+		{
+			key: readability-identifier-naming.StructCase,
+			value: 'CamelCase'
+		},
+		{
+			key: readability-identifier-naming.TemplateParameterCase,
+			value: 'CamelCase'
+		},
+		{
+			key: readability-identifier-naming.TemplateTemplateParameterCase,
+			value: 'CamelCase'
+		},
+		{
+			key: readability-identifier-naming.TypeAliasCase,
+			value: 'CamelCase'
+		},
+		{
+			key: readability-identifier-naming.VariableCase,
+			value: 'lower_case'
+		},
+		{
+			key: google-runtime-int.TypeSuffix,
+			value: '_t'
+		}
+	]
+}
+
