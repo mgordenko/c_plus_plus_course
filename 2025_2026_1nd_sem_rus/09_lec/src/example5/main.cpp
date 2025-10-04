@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cmath>
+#include <string>
+#include <concepts>
+
+template<typename T>
+concept Numeric = std::integral<T> || std::floating_point<T>;
+
+template<Numeric T>
+T calculateAverage(const T* array, size_t size) {
+  T sum = 0;
+  for (size_t i = 0; i < size; ++i) {
+    sum += array[i];
+  }
+  return sum / size;
+}
+int main() {
+  double arr[] = {1.0, 2.0, 3.0, 4.0};
+  int arr2[] = {1, 2, 3, 4};
+  std::string arr3[] = {"ads", "faf", "fsf", "feavfv"};
+  std::cout << calculateAverage(arr, 4) << '\n';
+  std::cout << calculateAverage(arr2, 4);
+  // std::cout << calculateAverage(arr3, 4);
+  return 0;
+}
